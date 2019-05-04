@@ -2,12 +2,27 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+.s_tizers .row > div {
+	text-align: center;
+}
+.tiz_descr {
+	display: block;
+	margin-top: 10px;
+}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+.s_tizers .row > div {
+	text-align: left;
+}
+.tiz_descr {
+	display: inline-block;
+	margin-top: 10px;
+}
+.profi_item:last-child {
+	margin-bottom: 30px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -21,6 +36,17 @@
 .top_phone .tab_item {
 	font-size: 30px;
 }
+.s_contacts h2 {
+	margin-bottom: 20px;
+}
+}
+@media only screen and (max-width : 600px) {
+.profi_item {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -49,6 +75,16 @@
 }
 .button_wrap {
 	text-align: center;
+}
+section h2 {
+	font-size: 38px;
+	line-height: 48px;
+}
+form h2 {
+font-size: 25px;
+}
+.s_contacts .tabs .tab {
+	padding: 0 20px;
 }
 }
 
@@ -87,7 +123,7 @@
 
 @media (min-height: 720px) and (min-width: 1400px) {
 	.tabs_header {
-		position: absolute;
+	/*	position: absolute;*/
 		bottom: 180px;	
 	}
 	.tabs_header > div {
@@ -95,6 +131,6 @@
 		width: 100%;
 	}
 	.top_header {
-		margin-top: 150px;
+		margin-top: 120px;
 	}
 }

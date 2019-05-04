@@ -4,7 +4,7 @@
     src: url('myfonts-webfont.eot?#iefix') format('embedded-opentype'),
          url('myfonts-webfont.woff2') format('woff2'),
          url('myfonts-webfont.woff') format('woff'),
-         url('myfonts-webfont.svg#svgfont_1regular') format('svg');
+         url('myfonts-webfont.svg#myFont') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -12,7 +12,7 @@
 
 .my {
 	font-family: 'myFont';
-	font-size: 70px;
+	font-size: 32px;
 	display: inline-block;
 	font-style: normal;
 	text-rendering: auto;
