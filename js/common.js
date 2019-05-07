@@ -1,10 +1,12 @@
 $(document).ready(function() {
 
+$('.slickcarousel').slick({
+  });
+
 $(".owl-carousel").owlCarousel({
 		responsive : {
 			0 : {
-				items : 1,
-				nav : true
+				items : 1
 			}
 		},
 		navText : ""

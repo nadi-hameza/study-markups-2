@@ -312,12 +312,10 @@ form {
 
 .s_review {
   background-image: url(../img/middle_bg.jpg);
-  background-repeat: repeat-x;
   background-attachment: fixed;
-  min-height: 500px;
+  min-height: 600px;
   background-position: top center;
-  background-size: cover;
-  background-color: #412521; }
+  background-size: cover; }
 
 .review_item {
   color: #fff;
@@ -353,14 +351,31 @@ form {
   width: 34px;
   height: 140px;
   background-image: url(../img/qwe.png);
-  top: 120px;
+  top: 20px;
+  position: absolute;
+  opacity: 0.6;
+}
+.owl-nav button:hover {
+  opacity: 1;
+}
+.owl-nav button.owl-next {
+  right: 0;
+  background-position: top right;
+}
+
+
+ /*.slick-prev:before, .slick-next:before  {
+  width: 34px;
+  height: 140px;
+  background-image: url(../img/qwe.png);
+  margin: -60px 0 0 0;
   position: absolute;
   apacity: .6; }
-  .owl-nav button:hover {
+  .slick-prev:before:hover, .slick-next:before:hover {
     apacity: 1; }
-  .owl-nav button.owl-next {
-    right: 0;
-    background-position: top right; }
+    .slick-next:before{
+      background-position: -40px 0;
+    } */
 
 .owl-dots {
   width: 100%;
