@@ -1,15 +1,17 @@
 $(document).ready(function() {
 
 $('.slickcarousel').slick({
-  });
+	dots: true
+	});
 
 $(".owl-carousel").owlCarousel({
 		responsive : {
 			0 : {
-				items : 1
+				items : 1,
+				nav : true
 			}
 		},
-		navText : ""
+		navText : ["<img src='img/qwe1.png'>", "<img src='img/qwe2.png'>"]
 
 });
 

@@ -27,7 +27,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-.top_phone, .logo, .top_header h1, .top_header h2 {
+.top_phone, .bottom_phone, .logo, .top_header h1, .top_header h2 {
 	text-align: center;
 }
 .logo {
@@ -56,6 +56,9 @@
 .logo {
 	margin-bottom: 15px;}
 	.top_phone .tab_item {
+		font-size: 30px;
+	}
+	.bottom-phone {
 		font-size: 30px;
 	}
  .top_header {
