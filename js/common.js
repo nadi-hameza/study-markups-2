@@ -4,7 +4,7 @@ $('.slickcarousel').slick({
 	dots: true
 	});
 
-$(".owl-carousel").owlCarousel({
+/*$(".owl-carousel").owlCarousel({
 		responsive : {
 			0 : {
 				items : 1,
@@ -13,7 +13,7 @@ $(".owl-carousel").owlCarousel({
 		},
 		navText : ["<img src='img/qwe1.png'>", "<img src='img/qwe2.png'>"]
 
-});
+});*/
 
 $(".popup").magnificPopup({type:"image"});	
 

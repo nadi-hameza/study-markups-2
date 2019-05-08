@@ -347,7 +347,7 @@ form {
   background-color: #CEA380;
   margin: auto; }
 
-.owl-nav button {
+/* .owl-nav button {
   width: 34px;
   height: 140px;
   background-image: url(../img/qwe.png);
@@ -361,9 +361,10 @@ form {
 .owl-nav button.owl-next {
   right: 0;
   background-position: top right;
+}*/
+.slickcarousel .slick-arrow {
+z-index:10;
 }
-
-
  .slick-prev, .slick-next  {
    width: 34px;
   height: 140px;
@@ -374,9 +375,7 @@ form {
   opacity: 0.6; }
   .slick-prev:hover, .slick-next:hover {
     opacity: 1; }
-    .slick-next{
-     /* background-image: url(../img/qwe2.png);*/
-    } 
+ 
  .slick-dots {
   width: 100%;
   margin-top: 30px;
@@ -393,7 +392,7 @@ form {
       opacity: .8;
   }   
 
-.owl-dots {
+/* .owl-dots {
   width: 100%;
   margin-top: 30px;
   text-align: center; }
@@ -406,7 +405,7 @@ form {
     border-radius: 50%;
     opacity: .5; }
     .owl-dots .owl-dot.active {
-      opacity: .8; }
+      opacity: .8; } */
 
 .s_back {
   background-image: url(../img/red_bg.jpg);
